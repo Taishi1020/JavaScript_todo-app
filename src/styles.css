@@ -1,3 +1,22 @@
 body {
   font-family: sans-serif;
 }
+
+.input {
+  background-color: rgb(50, 205, 89);
+  width: 400px;
+  height: 30px;
+  padding: 8px;
+}
+
+.incomplete {
+  background-color: aqua;
+  width: 400px;
+  min-height: 200px;
+}
+
+.complete {
+  background-color: blanchedalmond;
+  width: 400px;
+  min-height: 200px;
+}
