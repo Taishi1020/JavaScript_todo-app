@@ -11,22 +11,27 @@
       <button class="button">追加</button>
     </div>
     <div class="incomplete">
-      <p>未完了のTODO</p>
+      <p class="=title">未完了のTODO</p>
       <ul>
-        <li>
-          <div>
-            <p>TODOです</p>
-            <button class="button">完了</button>
-            <button class="button">削除</button>
-          </div>
-        </li>
+        <div class="list-row">
+          <li>TODOです</li>
+          <button class="button">完了</button>
+          <button class="button">削除</button>
+        </div>
+        <div class="list-row">
+          <li>TODOです</li>
+          <button class="button">完了</button>
+          <button class="button">削除</button>
+        </div>
       </ul>
     </div>
     <div class="complete">
-      <p>完了したTODO</p>
+      <p class="title">完了したTODO</p>
       <ul>
-        <li>TODOでした</li>
-        <button class="button">戻す</button>
+        <div class="list-row">
+          <li>TODOでした</li>
+          <button class="button">戻す</button>
+        </div>
       </ul>
     </div>
     <script src="src/index.js"></script>

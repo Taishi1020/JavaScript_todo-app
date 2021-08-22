@@ -28,6 +28,10 @@ button:hover {
   cursor: pointer;
 }
 
+li {
+  margin: 8px;
+}
+
 .incomplete {
   background-color: aqua;
   width: 400px;
@@ -42,4 +46,17 @@ button:hover {
   min-height: 200px;
   margin: 8px;
   border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  margin-top: 0;
+  font-weight: bold;
+  color: #666666;
+}
+
+.list-row {
+  display: flex;
+  align-items: center;
+  padding-bottom: 7px;
 }
